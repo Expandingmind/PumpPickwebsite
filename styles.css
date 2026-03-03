@@ -979,6 +979,289 @@ body {
   background: #f9fafb;
 }
 
+/* === SnapOut-style dark landing === */
+
+.page--dark-landing {
+  background: radial-gradient(circle at top left, #1f2937 0, #020617 40%, #020617 100%);
+  color: #e5e7eb;
+}
+
+.snap-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(15, 23, 42, 0.96);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(30, 64, 175, 0.35);
+}
+
+.snap-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo--snap .logo__icon {
+  background: radial-gradient(circle at 30% 10%, #f9fafb, #111827);
+  color: #020617;
+}
+
+.snap-nav {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.snap-nav__link {
+  color: #9ca3af;
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+.snap-nav__link--active,
+.snap-nav__link:hover {
+  color: #f9fafb;
+}
+
+.snap-header__button {
+  padding-inline: 20px;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+}
+
+.snap-hero {
+  padding: 72px 0 72px;
+}
+
+.snap-hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 56px;
+  align-items: center;
+}
+
+.snap-hero__title {
+  font-size: clamp(36px, 4.6vw, 46px);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin: 0 0 12px;
+  color: #e5e7eb;
+}
+
+.snap-hero__title-accent {
+  background: linear-gradient(135deg, #a855f7, #6366f1, #f97316);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.snap-hero__subtitle {
+  margin: 0 0 24px;
+  max-width: 460px;
+  font-size: 15px;
+  color: #cbd5f5;
+}
+
+.snap-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.btn--lg {
+  padding: 12px 26px;
+  font-size: 15px;
+}
+
+.snap-hero__meta {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.snap-hero__device {
+  display: flex;
+  justify-content: center;
+}
+
+.phone-frame--hero {
+  max-width: 320px;
+  background: radial-gradient(circle at top, #111827, #020617);
+  border-radius: 40px;
+  padding: 14px;
+  border: 1px solid rgba(30, 64, 175, 0.6);
+  box-shadow: 0 35px 110px rgba(15, 23, 42, 0.9);
+}
+
+.phone-frame--hero .phone-frame__image {
+  border-radius: 30px;
+}
+
+.snap-section {
+  padding: 64px 0;
+}
+
+.snap-section--band {
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #020617 100%);
+}
+
+.snap-section__header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.snap-section__header--center {
+  align-items: center;
+  text-align: center;
+}
+
+.snap-section__title {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  color: #e5e7eb;
+}
+
+.snap-section__underline {
+  width: 64px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #f97316, #6366f1);
+}
+
+.snap-features {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.snap-feature-card {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 22px;
+  padding: 18px 18px 16px;
+  border: 1px solid rgba(30, 64, 175, 0.45);
+  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.7);
+}
+
+.snap-feature-card__icon {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.snap-feature-card__title {
+  margin: 0 0 6px;
+  font-size: 15px;
+  color: #e5e7eb;
+}
+
+.snap-feature-card__text {
+  margin: 0;
+  font-size: 13px;
+  color: #cbd5f5;
+}
+
+.snap-screenshots-row {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 8px 0 4px;
+  scroll-snap-type: x mandatory;
+}
+
+.snap-screenshots-row .phone-frame--strip {
+  max-width: 230px;
+  scroll-snap-align: start;
+}
+
+.snap-testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.snap-testimonial-card {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 22px;
+  padding: 18px 20px 16px;
+  border: 1px solid rgba(30, 64, 175, 0.45);
+  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.7);
+}
+
+.snap-testimonial-card__quote {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #e5e7eb;
+}
+
+.snap-testimonial-card__meta {
+  margin: 0;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.snap-cta {
+  padding: 56px 0;
+  background: radial-gradient(circle at top, #4f46e5, #7c3aed 40%, #020617 100%);
+}
+
+.snap-cta__inner {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.snap-cta__title {
+  margin: 0 0 8px;
+  font-size: 26px;
+  letter-spacing: -0.03em;
+  color: #f9fafb;
+}
+
+.snap-cta__subtitle {
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: #e5e7eb;
+}
+
+.snap-footer {
+  padding: 22px 0 26px;
+  background: #020617;
+  border-top: 1px solid rgba(15, 23, 42, 1);
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.snap-footer__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.snap-footer__tagline {
+  margin: 4px 0 0;
+  color: #6b7280;
+}
+
+.snap-footer__legal-title {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: #e5e7eb;
+}
+
+.snap-footer__link {
+  display: block;
+  color: #9ca3af;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.snap-footer__link:hover {
+  color: #f9fafb;
+}
+
 @media (max-width: 900px) {
   .hero__inner {
     grid-template-columns: minmax(0, 1fr);
@@ -1010,6 +1293,23 @@ body {
   .section__header--center {
     align-items: center;
   }
+
+  .snap-hero__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .snap-hero__device {
+    justify-content: flex-start;
+    margin-top: 16px;
+  }
+
+  .snap-header__inner {
+    gap: 12px;
+  }
+
+  .snap-nav {
+    display: none;
+  }
 }
 
 @media (max-width: 720px) {
@@ -1035,6 +1335,19 @@ body {
   }
 
   .download__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .snap-features {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .snap-screenshots-row .phone-frame--strip {
+    max-width: 200px;
+  }
+
+  .snap-footer__inner {
     flex-direction: column;
     align-items: flex-start;
   }

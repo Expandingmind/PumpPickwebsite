@@ -2,132 +2,163 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>PumpPick – Build Your Perfect Workout</title>
+  <title>PumpPick – Fix Your Training in 60 Days</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="PumpPick helps you build your perfect workout by swiping between options – then tracks your strength journey." />
+  <meta
+    name="description"
+    content="PumpPick is your personal coach for building a smarter, sustainable strength plan—track progress, earn badges, and finally stay consistent."
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="page page--light-app">
-  <header class="header header--app">
-    <div class="container header__inner">
-      <div class="logo">
-        <div class="logo__icon">P</div>
-        <span class="logo__text">PumpPick</span>
+<body class="page page--dark-landing">
+  <header class="snap-header">
+    <div class="container snap-header__inner">
+      <div class="snap-header__brand">
+        <div class="logo logo--snap">
+          <div class="logo__icon">P</div>
+          <span class="logo__text">PumpPick</span>
+        </div>
       </div>
-      <nav class="nav nav--app">
-        <a href="#app" class="nav__link nav__link--active">App</a>
-        <a href="#screenshots" class="nav__link">Screenshots</a>
-        <a href="#features" class="nav__link">Features</a>
-        <a href="#download" class="nav__link nav__link--button">Download</a>
+      <nav class="snap-nav">
+        <a href="#home" class="snap-nav__link snap-nav__link--active">Home</a>
+        <a href="#features" class="snap-nav__link">Features</a>
+        <a href="#screenshots" class="snap-nav__link">Screenshots</a>
+        <a href="#testimonials" class="snap-nav__link">Testimonials</a>
       </nav>
+      <div class="snap-header__cta">
+        <a href="#download" class="btn btn--primary snap-header__button">Download Now</a>
+      </div>
     </div>
   </header>
 
-  <main>
-    <!-- HERO: matches the Build screen -->
-    <section class="app-hero" id="app">
-      <div class="container app-hero__inner">
-        <div class="app-hero__content">
-          <span class="app-hero__eyebrow">Build</span>
-          <h1 class="app-hero__title">PumpPick</h1>
-          <p class="app-hero__subtitle">
-            Build your perfect workout by swiping between options. PumpPick dials in your split, equipment, and weekly plan—then keeps
-            you on track.
+  <main id="home">
+    <!-- HERO -->
+    <section class="snap-hero">
+      <div class="container snap-hero__grid">
+        <div class="snap-hero__copy">
+          <h1 class="snap-hero__title">
+            Break Free from<br />
+            <span class="snap-hero__title-accent">Inconsistent Training</span>
+          </h1>
+          <p class="snap-hero__subtitle">
+            PumpPick is your personal companion in the gym. Build a smart routine in minutes, track every rep, and see your strength
+            journey clearly—without spreadsheets or guesswork.
           </p>
 
-          <div class="app-hero__summary">
-            <h2 class="app-hero__summary-title">Weekly Plan</h2>
-            <div class="app-hero__summary-grid">
-              <div class="plan-card">
-                <div class="plan-card__icon plan-card__icon--navy">4</div>
-                <p class="plan-card__label">Workouts</p>
-                <p class="plan-card__hint">per week</p>
-              </div>
-              <div class="plan-card">
-                <div class="plan-card__icon plan-card__icon--orange">45</div>
-                <p class="plan-card__label">Duration</p>
-                <p class="plan-card__hint">min / session</p>
-              </div>
-              <div class="plan-card">
-                <div class="plan-card__icon plan-card__icon--red">6</div>
-                <p class="plan-card__label">Exercises</p>
-                <p class="plan-card__hint">per workout</p>
-              </div>
-              <div class="plan-card">
-                <div class="plan-card__icon plan-card__icon--blue">90</div>
-                <p class="plan-card__label">Rest</p>
-                <p class="plan-card__hint">sec between sets</p>
-              </div>
-            </div>
-            <a href="#download" class="btn btn--primary btn--full app-hero__cta">Start Workout →</a>
+          <div class="snap-hero__actions">
+            <a href="#download" class="btn btn--primary btn--lg">Download Now</a>
+            <a href="#features" class="btn btn--ghost btn--lg">Learn More</a>
+          </div>
+
+          <div class="snap-hero__meta">
+            <span>Built for lifters who want real progress—without burnout.</span>
           </div>
         </div>
 
-        <div class="app-hero__phone">
-          <div class="phone-frame">
-            <img
-              src="assets/IMG_1755-b5aae15a-c170-4dee-a263-cd5e23546e62.png"
-              alt="PumpPick Build screen"
-              class="phone-frame__image"
-            />
-          </div>
-          <div class="app-hero__phone-dots">
-            <span class="dot dot--active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Screenshots strip -->
-    <section class="screenshots" id="screenshots">
-      <div class="container">
-        <h2 class="section-heading">See PumpPick in action</h2>
-        <p class="section-subtitle">
-          From building your split to tracking PRs, PumpPick keeps your whole journey in one clean, simple interface.
-        </p>
-
-        <div class="screenshots__row">
-          <figure class="phone-frame phone-frame--small">
-            <img
-              src="assets/IMG_1757-5acebc59-f952-44d2-b595-d4889b1d1925.png"
-              alt="Build – What's the split?"
-              class="phone-frame__image"
-            />
-          </figure>
-          <figure class="phone-frame phone-frame--small">
-            <img
-              src="assets/IMG_1756-42f32fa4-c9d3-4622-9d48-7934222d8f7a.png"
-              alt="Build – Where are you training?"
-              class="phone-frame__image"
-            />
-          </figure>
-          <figure class="phone-frame phone-frame--small">
+        <div class="snap-hero__device">
+          <div class="phone-frame phone-frame--hero">
             <img
               src="assets/IMG_1754-ef1fddec-7452-4e40-8f2b-f5e7fde3eae6.png"
-              alt="Home – Bench press goal and weekly volume"
+              alt="PumpPick home dashboard"
               class="phone-frame__image"
             />
-          </figure>
-          <figure class="phone-frame phone-frame--small">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="snap-section snap-section--band" id="features">
+      <div class="container">
+        <div class="snap-section__header">
+          <h2 class="snap-section__title">Powerful Features</h2>
+          <div class="snap-section__underline"></div>
+        </div>
+
+        <div class="snap-features">
+          <article class="snap-feature-card">
+            <div class="snap-feature-card__icon">📊</div>
+            <h3 class="snap-feature-card__title">Progress Tracking</h3>
+            <p class="snap-feature-card__text">
+              See weekly volume, streaks, and PRs at a glance so you always know whether you’re moving forward.
+            </p>
+          </article>
+
+          <article class="snap-feature-card">
+            <div class="snap-feature-card__icon">🧠</div>
+            <h3 class="snap-feature-card__title">Smart Programming</h3>
+            <p class="snap-feature-card__text">
+              Swipe between options to build a routine tailored to your split, equipment, and recovery.
+            </p>
+          </article>
+
+          <article class="snap-feature-card">
+            <div class="snap-feature-card__icon">🔔</div>
+            <h3 class="snap-feature-card__title">Habit Alerts</h3>
+            <p class="snap-feature-card__text">
+              Stay accountable with timely nudges when you’re about to miss a planned workout.
+            </p>
+          </article>
+
+          <article class="snap-feature-card">
+            <div class="snap-feature-card__icon">🔒</div>
+            <h3 class="snap-feature-card__title">Privacy Focused</h3>
+            <p class="snap-feature-card__text">
+              Your training data stays in your control. PumpPick focuses on progress—not profiles.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- APP SCREENSHOTS STRIP -->
+    <section class="snap-section" id="screenshots">
+      <div class="container">
+        <div class="snap-section__header snap-section__header--center">
+          <h2 class="snap-section__title">App Screenshots</h2>
+          <div class="snap-section__underline"></div>
+        </div>
+
+        <div class="snap-screenshots-row">
+          <figure class="phone-frame phone-frame--strip">
             <img
-              src="assets/IMG_1759-b2c76753-02ff-41b3-857d-fe41d53d92f4.png"
-              alt="Your Journey – progress graph"
+              src="assets/IMG_1757-5acebc59-f952-44d2-b595-d4889b1d1925.png"
+              alt="PumpPick split selection"
               class="phone-frame__image"
             />
           </figure>
-          <figure class="phone-frame phone-frame--small">
+          <figure class="phone-frame phone-frame--strip">
+            <img
+              src="assets/IMG_1756-42f32fa4-c9d3-4622-9d48-7934222d8f7a.png"
+              alt="PumpPick training location selection"
+              class="phone-frame__image"
+            />
+          </figure>
+          <figure class="phone-frame phone-frame--strip">
+            <img
+              src="assets/IMG_1755-b5aae15a-c170-4dee-a263-cd5e23546e62.png"
+              alt="PumpPick weekly plan"
+              class="phone-frame__image"
+            />
+          </figure>
+          <figure class="phone-frame phone-frame--strip">
             <img
               src="assets/IMG_1758-f494a377-8c27-47c2-b239-66c31217e9a0.png"
-              alt="Achievements – badges"
+              alt="PumpPick badges"
               class="phone-frame__image"
             />
           </figure>
-          <figure class="phone-frame phone-frame--small">
+          <figure class="phone-frame phone-frame--strip">
+            <img
+              src="assets/IMG_1759-b2c76753-02ff-41b3-857d-fe41d53d92f4.png"
+              alt="PumpPick journey view"
+              class="phone-frame__image"
+            />
+          </figure>
+          <figure class="phone-frame phone-frame--strip">
             <img
               src="assets/IMG_1760-77c4b91d-bcd9-4021-95b6-1b96df486eb7.png"
-              alt="Your Journey – exercise node view"
+              alt="PumpPick exercise journey detail"
               class="phone-frame__image"
             />
           </figure>
@@ -135,61 +166,71 @@
       </div>
     </section>
 
-    <!-- Features -->
-    <section class="section section--muted" id="features">
+    <!-- TESTIMONIALS -->
+    <section class="snap-section snap-section--band" id="testimonials">
       <div class="container">
-        <h2 class="section-heading section-heading--center">Why lifters use PumpPick</h2>
-        <div class="grid grid--2">
-          <article class="card card--light">
-            <h3 class="card__title">Swipe to build your split</h3>
-            <p class="card__text">
-              Choose between full body, upper/lower, and more—PumpPick designs a plan around your schedule and equipment in seconds.
+        <div class="snap-section__header">
+          <h2 class="snap-section__title">What Our Lifters Say</h2>
+          <div class="snap-section__underline"></div>
+        </div>
+
+        <div class="snap-testimonials">
+          <article class="snap-testimonial-card">
+            <p class="snap-testimonial-card__quote">
+              “PumpPick finally gave me a plan I actually stick to. I’ve hit more PRs in 2 months than the last 2 years.”
             </p>
+            <p class="snap-testimonial-card__meta">Michael T. · 6 months consistent</p>
           </article>
-          <article class="card card--light">
-            <h3 class="card__title">See your journey at a glance</h3>
-            <p class="card__text">
-              Track total volume, streaks, and PRs with a visual map that shows exactly where you’re getting stronger.
+
+          <article class="snap-testimonial-card">
+            <p class="snap-testimonial-card__quote">
+              “The weekly volume view and journey map make it so clear where I’m improving. I just follow the plan.”
             </p>
+            <p class="snap-testimonial-card__meta">Sarah K. · Busy professional</p>
+          </article>
+
+          <article class="snap-testimonial-card">
+            <p class="snap-testimonial-card__quote">
+              “As a coach, I recommend PumpPick to clients who want structure without overthinking every session.”
+            </p>
+            <p class="snap-testimonial-card__meta">Coach James · Strength coach</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Download -->
-    <section class="download" id="download">
-      <div class="container download__inner">
-        <div>
-          <h2 class="download__title">Fix your training in 60 days.</h2>
-          <p class="download__subtitle">Get PumpPick and start your first block today.</p>
-        </div>
-        <a href="#" class="btn btn--primary">Download PumpPick</a>
+    <!-- CTA BAND -->
+    <section class="snap-cta" id="download">
+      <div class="container snap-cta__inner">
+        <h2 class="snap-cta__title">Ready to Train on Purpose?</h2>
+        <p class="snap-cta__subtitle">
+          Download PumpPick on your iPhone and start your next 60‑day strength block with a clear, trackable plan.
+        </p>
+        <a href="#" class="btn btn--primary btn--lg snap-cta__button">Download on the App Store</a>
       </div>
     </section>
   </main>
 
   <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <div class="logo">
+  <footer class="snap-footer">
+    <div class="container snap-footer__inner">
+      <div class="snap-footer__brand">
+        <div class="logo logo--snap">
           <div class="logo__icon logo__icon--small">P</div>
           <span class="logo__text">PumpPick</span>
         </div>
-        <p class="footer__tagline">Build your perfect workout.</p>
+        <p class="snap-footer__tagline">Fix your training in 60 days.</p>
       </div>
-      <div class="footer__links">
-        <a href="privacy.html" class="footer__link">Privacy Policy</a>
-        <a href="terms.html" class="footer__link">Terms &amp; Conditions</a>
-        <a href="#support" class="footer__link">Support</a>
+      <div class="snap-footer__legal">
+        <h3 class="snap-footer__legal-title">Legal</h3>
+        <a href="privacy.html" class="snap-footer__link">Privacy Policy</a>
+        <a href="terms.html" class="snap-footer__link">Terms of Service</a>
       </div>
-      <div class="footer__meta">
-        <span>© <span id="year"></span> PumpPick.</span>
-        <span>All rights reserved.</span>
+      <div class="snap-footer__meta">
+        <span>© <span id="year"></span> PumpPick. All rights reserved.</span>
       </div>
     </div>
     <script>
-      // Simple script to keep the year current
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </footer>
