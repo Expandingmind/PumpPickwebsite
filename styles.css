@@ -1184,7 +1184,7 @@ body {
 }
 
 .snap-screenshots-viewport {
-  overflow: hidden;
+  overflow: visible;
   margin-top: 8px;
 }
 
