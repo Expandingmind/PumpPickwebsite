@@ -1199,14 +1199,14 @@ body {
 
 .snap-screenshots-track {
   display: flex;
-  gap: 12px;
+  gap: 6px;
   padding: 8px 0 4px;
   animation: snap-screenshots-scroll 32s linear infinite;
 }
 
 .snap-screenshots-track .phone-frame--strip {
-  max-width: 260px;
-  min-width: 240px;
+  max-width: 195px;
+  min-width: 180px;
   flex-shrink: 0;
 }
 
@@ -1403,8 +1403,8 @@ body {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .snap-screenshots-row .phone-frame--strip {
-    max-width: 200px;
+  .snap-screenshots-track .phone-frame--strip {
+    max-width: 150px;
   }
 
   .snap-footer__inner {
