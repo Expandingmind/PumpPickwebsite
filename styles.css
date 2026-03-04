@@ -1199,14 +1199,14 @@ body {
 
 .snap-screenshots-track {
   display: flex;
-  gap: 6px;
+  gap: 3px;
   padding: 8px 0 4px;
   animation: snap-screenshots-scroll 32s linear infinite;
 }
 
 .snap-screenshots-track .phone-frame--strip {
-  max-width: 195px;
-  min-width: 180px;
+  max-width: 218px;
+  min-width: 202px;
   flex-shrink: 0;
 }
 
@@ -1404,7 +1404,7 @@ body {
   }
 
   .snap-screenshots-track .phone-frame--strip {
-    max-width: 150px;
+    max-width: 168px;
   }
 
   .snap-footer__inner {
