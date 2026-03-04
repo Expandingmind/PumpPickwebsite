@@ -1070,7 +1070,7 @@ body {
 }
 
 .snap-hero__title-accent {
-  background: linear-gradient(135deg, #a855f7, #6366f1, #f97316);
+  background: linear-gradient(135deg, #f97316, #fb923c, #fed7aa);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -1149,7 +1149,7 @@ body {
   width: 64px;
   height: 3px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #f97316, #6366f1);
+  background: linear-gradient(90deg, #f97316, #020617);
 }
 
 .snap-features {
@@ -1238,7 +1238,7 @@ body {
 
 .snap-cta {
   padding: 56px 0;
-  background: radial-gradient(circle at top, #4f46e5, #7c3aed 40%, #020617 100%);
+  background: radial-gradient(circle at top, #f97316 0, #ea580c 35%, #020617 100%);
 }
 
 .snap-cta__inner {
@@ -1273,6 +1273,12 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   gap: 32px;
+}
+
+.snap-footer__brand-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f9fafb;
 }
 
 .snap-footer__tagline {
