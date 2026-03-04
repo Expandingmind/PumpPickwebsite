@@ -1088,10 +1088,10 @@ body {
 }
 
 .phone-frame--hero {
-  max-width: 320px;
+  max-width: 260px;
   background: radial-gradient(circle at top, #111827, #020617);
   border-radius: 40px;
-  padding: 14px;
+  padding: 10px;
   border: 1px solid rgba(30, 64, 175, 0.6);
   box-shadow: 0 35px 110px rgba(15, 23, 42, 0.9);
 }
@@ -1165,19 +1165,31 @@ body {
   color: #cbd5f5;
 }
 
-.snap-screenshots-row {
-  display: flex;
-  gap: 16px;
-  overflow-x: auto;
-  padding: 8px 0 4px;
-  scroll-snap-type: x mandatory;
+.snap-screenshots-viewport {
+  overflow: hidden;
+  margin-top: 8px;
 }
 
-.snap-screenshots-row .phone-frame--strip {
-  max-width: 230px;
-  min-width: 200px;
+.snap-screenshots-track {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0 4px;
+  animation: snap-screenshots-scroll 32s linear infinite;
+}
+
+.snap-screenshots-track .phone-frame--strip {
+  max-width: 260px;
+  min-width: 240px;
   flex-shrink: 0;
-  scroll-snap-align: start;
+}
+
+@keyframes snap-screenshots-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .snap-testimonials {
