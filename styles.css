@@ -993,16 +993,28 @@ body {
   position: sticky;
   top: 0;
   z-index: 30;
-  background: rgba(15, 23, 42, 0.96);
+  padding-top: 14px;
+  padding-bottom: 6px;
+  background: radial-gradient(circle at top, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.9), transparent);
   backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(30, 64, 175, 0.35);
+}
+
+.snap-header .container {
+  display: flex;
+  justify-content: center;
 }
 
 .snap-header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  gap: 28px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: radial-gradient(circle at top, #020617, #020617 55%, #020617 100%);
+  border: 1px solid rgba(55, 65, 81, 0.9);
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.9);
+  height: auto;
 }
 
 .logo--snap .logo__icon {
@@ -1017,7 +1029,7 @@ body {
 }
 
 .snap-nav__link {
-  color: #9ca3af;
+  color: #e5e7eb;
   text-decoration: none;
   padding: 4px 0;
 }
@@ -1029,7 +1041,10 @@ body {
 
 .snap-header__button {
   padding-inline: 20px;
-  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  border-radius: 999px;
+  background: #f9fafb;
+  color: #020617;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.9);
 }
 
 .snap-hero {
