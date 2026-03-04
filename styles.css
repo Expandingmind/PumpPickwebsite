@@ -891,7 +891,10 @@ body {
 .phone-frame__image {
   display: block;
   width: 100%;
+  height: auto;
   border-radius: 28px;
+  object-fit: cover;
+  vertical-align: middle;
 }
 
 .app-hero__phone-dots .dot {
@@ -1172,6 +1175,8 @@ body {
 
 .snap-screenshots-row .phone-frame--strip {
   max-width: 230px;
+  min-width: 200px;
+  flex-shrink: 0;
   scroll-snap-align: start;
 }
 
