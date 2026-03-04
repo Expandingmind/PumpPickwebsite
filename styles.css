@@ -1005,16 +1005,17 @@ body {
 }
 
 .snap-header__inner {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 28px;
-  padding: 10px 20px;
+  gap: 20px;
+  padding: 6px 16px;
   border-radius: 999px;
   background: radial-gradient(circle at top, #020617, #020617 55%, #020617 100%);
   border: 1px solid rgba(55, 65, 81, 0.9);
   box-shadow: 0 18px 55px rgba(0, 0, 0, 0.9);
   height: auto;
+  max-width: 640px;
 }
 
 .logo--snap .logo__icon {
