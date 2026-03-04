@@ -1247,8 +1247,7 @@ body {
 
 .snap-cta {
   padding: 64px 0 72px;
-  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(249, 115, 22, 0.18) 0%, transparent 55%),
-              radial-gradient(circle at top, #111827 0, #020617 50%, #020617 100%);
+  background: radial-gradient(circle at top, #111827 0, #020617 50%, #020617 100%);
   border-top: 1px solid rgba(30, 64, 175, 0.25);
 }
 
