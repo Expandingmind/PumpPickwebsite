@@ -1122,6 +1122,10 @@ body {
   padding: 64px 0;
 }
 
+.snap-section#screenshots {
+  overflow: visible;
+}
+
 .snap-section--band {
   background: radial-gradient(circle at top, #111827 0, #020617 55%, #020617 100%);
 }
@@ -1186,6 +1190,11 @@ body {
 .snap-screenshots-viewport {
   overflow: visible;
   margin-top: 8px;
+}
+
+.snap-section#screenshots .snap-screenshots-viewport {
+  margin-left: -40px;
+  margin-right: -40px;
 }
 
 .snap-screenshots-track {
