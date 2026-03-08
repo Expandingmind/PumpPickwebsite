@@ -117,6 +117,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+.logo__img {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -1292,6 +1298,25 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   gap: 32px;
+}
+
+.snap-footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.snap-footer__logo {
+  height: 24px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+.snap-footer__brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .snap-footer__brand-name {
