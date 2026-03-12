@@ -1251,6 +1251,26 @@ body {
   color: #9ca3af;
 }
 
+.snap-support {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.snap-support__text {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+.snap-support__link {
+  color: #f97316;
+  text-decoration: none;
+}
+
+.snap-support__link:hover {
+  text-decoration: underline;
+}
+
 .snap-cta {
   padding: 64px 0 72px;
   background: radial-gradient(circle at top, #111827 0, #020617 50%, #020617 100%);
