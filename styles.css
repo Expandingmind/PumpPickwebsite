@@ -991,8 +991,8 @@ body {
 /* === SnapOut-style dark landing === */
 
 .page--dark-landing {
-  background: radial-gradient(circle at top left, #1f2937 0, #020617 40%, #020617 100%);
-  color: #e5e7eb;
+  background: radial-gradient(circle at top left, #132a8b 0, #091654 30%, #040b2f 70%, #020617 100%);
+  color: #f3f6ff;
 }
 
 .snap-header {
@@ -1001,7 +1001,7 @@ body {
   z-index: 30;
   padding-top: 14px;
   padding-bottom: 6px;
-  background: radial-gradient(circle at top, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.9), transparent);
+  background: radial-gradient(circle at top, rgba(9, 22, 84, 0.95), rgba(4, 11, 47, 0.9), transparent);
   backdrop-filter: blur(18px);
 }
 
@@ -1017,8 +1017,8 @@ body {
   gap: 20px;
   padding: 6px 16px;
   border-radius: 999px;
-  background: radial-gradient(circle at top, #020617, #020617 55%, #020617 100%);
-  border: 1px solid rgba(55, 65, 81, 0.9);
+  background: linear-gradient(180deg, #08134a, #060f3b);
+  border: 1px solid rgba(85, 119, 240, 0.35);
   box-shadow: 0 18px 55px rgba(0, 0, 0, 0.9);
   height: auto;
   max-width: 640px;
@@ -1036,7 +1036,7 @@ body {
 }
 
 .snap-nav__link {
-  color: #e5e7eb;
+  color: #f3f6ff;
   text-decoration: none;
   padding: 4px 0;
 }
@@ -1049,8 +1049,8 @@ body {
 .snap-header__button {
   padding-inline: 20px;
   border-radius: 999px;
-  background: #f9fafb;
-  color: #020617;
+  background: #ff9d2e;
+  color: #08134a;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.9);
   white-space: nowrap;
   flex-shrink: 0;
@@ -1072,11 +1072,11 @@ body {
   line-height: 1.1;
   letter-spacing: -0.04em;
   margin: 0 0 12px;
-  color: #e5e7eb;
+  color: #f3f6ff;
 }
 
 .snap-hero__title-accent {
-  background: linear-gradient(135deg, #f97316, #fb923c, #fed7aa);
+  background: linear-gradient(135deg, #ff9d2e, #ffc56b, #ffffff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -1086,7 +1086,7 @@ body {
   margin: 0 0 24px;
   max-width: 460px;
   font-size: 15px;
-  color: #cbd5f5;
+  color: #dbe5ff;
 }
 
 .snap-hero__actions {
@@ -1113,10 +1113,10 @@ body {
 
 .phone-frame--hero {
   max-width: 260px;
-  background: radial-gradient(circle at top, #111827, #020617);
+  background: radial-gradient(circle at top, #233fa7, #08134a);
   border-radius: 40px;
   padding: 10px;
-  border: 1px solid rgba(30, 64, 175, 0.6);
+  border: 1px solid rgba(104, 147, 255, 0.6);
   box-shadow: 0 35px 110px rgba(15, 23, 42, 0.9);
 }
 
@@ -1133,7 +1133,7 @@ body {
 }
 
 .snap-section--band {
-  background: radial-gradient(circle at top, #111827 0, #020617 55%, #020617 100%);
+  background: radial-gradient(circle at top, #0d1d68 0, #060f3b 55%, #020617 100%);
 }
 
 .snap-section__header {
@@ -1152,14 +1152,14 @@ body {
   margin: 0;
   font-size: 24px;
   letter-spacing: -0.03em;
-  color: #e5e7eb;
+  color: #f3f6ff;
 }
 
 .snap-section__underline {
   width: 64px;
   height: 3px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #f97316, #020617);
+  background: linear-gradient(90deg, #ff9d2e, #ffffff);
 }
 
 .snap-features {
@@ -1169,10 +1169,10 @@ body {
 }
 
 .snap-feature-card {
-  background: rgba(15, 23, 42, 0.95);
+  background: rgba(8, 19, 74, 0.9);
   border-radius: 22px;
   padding: 18px 18px 16px;
-  border: 1px solid rgba(30, 64, 175, 0.45);
+  border: 1px solid rgba(104, 147, 255, 0.45);
   box-shadow: 0 22px 60px rgba(15, 23, 42, 0.7);
 }
 
@@ -1184,13 +1184,13 @@ body {
 .snap-feature-card__title {
   margin: 0 0 6px;
   font-size: 15px;
-  color: #e5e7eb;
+  color: #f3f6ff;
 }
 
 .snap-feature-card__text {
   margin: 0;
   font-size: 13px;
-  color: #cbd5f5;
+  color: #dbe5ff;
 }
 
 .snap-screenshots-viewport {
@@ -1232,17 +1232,17 @@ body {
 }
 
 .snap-testimonial-card {
-  background: rgba(15, 23, 42, 0.95);
+  background: rgba(8, 19, 74, 0.9);
   border-radius: 22px;
   padding: 18px 20px 16px;
-  border: 1px solid rgba(30, 64, 175, 0.45);
+  border: 1px solid rgba(104, 147, 255, 0.45);
   box-shadow: 0 22px 60px rgba(15, 23, 42, 0.7);
 }
 
 .snap-testimonial-card__quote {
   margin: 0 0 10px;
   font-size: 14px;
-  color: #e5e7eb;
+  color: #f3f6ff;
 }
 
 .snap-testimonial-card__meta {
@@ -1259,11 +1259,11 @@ body {
 
 .snap-support__text {
   font-size: 14px;
-  color: #cbd5f5;
+  color: #dbe5ff;
 }
 
 .snap-support__link {
-  color: #f97316;
+  color: #ff9d2e;
   text-decoration: none;
 }
 
@@ -1273,8 +1273,8 @@ body {
 
 .snap-cta {
   padding: 64px 0 72px;
-  background: radial-gradient(circle at top, #111827 0, #020617 50%, #020617 100%);
-  border-top: 1px solid rgba(30, 64, 175, 0.25);
+  background: radial-gradient(circle at top, #132a8b 0, #08134a 50%, #020617 100%);
+  border-top: 1px solid rgba(104, 147, 255, 0.35);
 }
 
 .snap-cta__inner {
@@ -1302,7 +1302,7 @@ body {
   margin: 0 0 24px;
   font-size: 15px;
   line-height: 1.5;
-  color: #cbd5e1;
+  color: #dbe5ff;
 }
 
 .snap-footer {
